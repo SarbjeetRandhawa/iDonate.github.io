@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/register.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>Donor-sign-up-page</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="head font">
+            <div id="iconnav"><img src="/resources/Logo 2.png" alt="img"></div>
+            <div id="optionnav">
+                <ul id="navlist">
+                    <li><a href="/home.html">HOME</a> </li>
+                    <li class="selected"><a href="/loginuser.html">WANT TO DONATE BLOOD</a> </li>
+                    <li><a href="/loginbloodbank.html">ADD BLOOD BANK</a> </li>
+                    <li><a href="#">LOOKING FOR BLOOD</a> </li>
+                    <li><a href="#">ABOUT</a> </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <img class="backgroundimg" src="/resources/WhatsApp Image 2023-04-05 at 7.27.56 PM.jpeg">
+    <div class="container">
+
+        <div class="form-box">
+            <h1>Sign Up</h1>
+            <p id="result"></p>
+            <form action="" name="register" onsubmit="return validation()" id="registerform">
+                <div class="input-group">
+
+                    <div class="input-field">
+
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Username" name="Name">
+
+                    </div>
+
+                    <div class="input-field">
+
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" name="email">
+
+                    </div>
+
+                    <div class="input-field">
+
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="password" name="pw">
+
+                    </div>
+
+                    <div class="input-field">
+
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Confirm Password" name="cpw">
+
+                    </div>
+
+                    <p>Already Registered!<a href="/loginuser.html"> Log In</a></p>
+
+
+                </div>
+                <div class="btn-field">
+                    <button type="submit">Sign up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="/js/register.js"></script>
+</body>
+
+
+</html>

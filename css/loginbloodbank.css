@@ -1,0 +1,865 @@
+/* ----------------------------------nav-------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#userdis1{
+    color: #f10f26;
+    font-weight: bold;
+}
+
+.head {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    top: 0%;
+    height: 40px;
+    /* border: 2px solid black; */
+    /* position: fixed; */
+
+    width: 100%;
+    /* background-color: white; */
+    /* z-index: -2; */
+
+    /* background-color: #F0EEED; */
+}
+
+#iconnav {
+    /* border: 2px solid rgb(4, 4, 4); */
+    margin-left: 8%;
+
+}
+
+.font {
+    font-family: 'Raleway', sans-serif;
+}
+
+#iconnav img {
+    margin-top: -15px;
+    width: 75px;
+    /* height: 80px; */
+}
+
+#optionnav {
+    margin-left: 16%;
+}
+
+#navlist {
+    display: flex;
+    list-style: none;
+    margin-left: 90px;
+
+
+}
+
+#navlist li {
+
+    margin-right: 40px;
+
+
+}
+
+#navlist li a {
+    text-decoration: none;
+    color: rgb(98, 97, 97);
+    font-size: 0.9rem;
+
+}
+
+#navlist li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+
+
+}
+
+.selected a {
+    /* border: 2px solid black */
+    /* padding: 10px 20px; */
+
+
+    color: #F0EEED !important;
+
+}
+
+.selected {
+    background-color: #f10f26;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-top: -12px;
+}
+
+/* ------------------BG design----------------------------- */
+
+
+#bgdesign1 {
+    width: 40%;
+    left: 5%;
+    opacity: 0.2;
+    object-fit: cover;
+    position: absolute;
+    position: fixed;
+    top: 9%;
+    z-index: -1;
+
+}
+
+.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* -----------------------------section form----------------------------- */
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    overflow: visible;
+}
+
+.formbloodbank {
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    height: 1400px;
+    z-index: -1;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    color: #f10f26;
+    letter-spacing: 2px;
+
+}
+
+h2::after {
+    content: " ";
+
+    width: 21%;
+    border-bottom: 3px solid #f10f26;
+    display: block;
+    margin-top: 10px;
+
+
+
+}
+
+#option {
+    display: flex;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+}
+
+#option button {
+    margin-right: 80px;
+    border: none;
+    height: 35px;
+    letter-spacing: 2px;
+    background-color: white;
+    /* width: 250px; */
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.underline::after {
+    display: block;
+    content: "";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-bottom: 3px solid #f10f26;
+}
+
+#option button img {
+    width: 20px;
+    margin-left: 10px;
+    position: absolute;
+
+
+
+
+}
+
+#form1 {
+    border: 3px solid #f10f26;
+    height: 1100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    /* background-color: white; */
+}
+
+
+
+
+
+
+/* -------------box1---------------- */
+#address {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: 130px;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+    display: flex;
+    /* z-index: -1; */
+}
+
+#box1 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 240px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box1 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+
+#address p {
+
+    margin-top: 60px;
+    margin-right: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.addressinput {
+    margin-top: 50px;
+    margin-right: auto;
+    height: 30px;
+    width: 220px;
+    border-radius: 10px;
+    padding-left: 20px;
+
+
+}
+
+.input1 {
+    height: 25px;
+    border: 1px solid black;
+
+}
+
+
+
+/* --------------------box2------------------ */
+
+#bankdetails {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: auto;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+    /* z-index: -1; */
+}
+
+#bankdetails div {
+    display: flex;
+
+}
+
+#box2 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 230px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box2 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+
+#bankdetails p {
+
+    margin-top: 60px;
+    margin-right: 25px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.bankdetailinput1 {
+    height: 25px;
+    width: 280px;
+    margin-top: 50px;
+    border-radius: 12px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+.bankdetailinput2 {
+    height: 25px;
+    width: 140px;
+    margin-top: 30px;
+    padding-left: 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.bankdetailsinput {
+    height: 30px;
+    width: 160px;
+    margin-top: 30px;
+    border-radius: 12px;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+#bankdetails-div2 p {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 37px;
+}
+
+#bankdetails-div2 {
+    margin-top: 10px;
+
+}
+
+
+/* ----------------div3--------------- */
+
+#bankdetails-div3 p {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 37px;
+}
+
+#bankdetails-div3 input {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+#ContactN {
+    margin-left: -15px !important;
+
+}
+
+#faxinput {
+    margin-left: 55px !important;
+}
+
+
+#bankdetails-div4 p {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#bankdetails-div4 input {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#Fdate {
+    margin-left: 15px !important;
+}
+
+#Tdate {
+    margin-left: 65px !important;
+}
+
+#bankdetails-div5 p {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 100px;
+}
+
+#Hnumber {
+    margin-left: 20px !important;
+}
+
+#bankdetails-div5 {
+    margin-bottom: 10px;
+}
+
+
+/* ----------------box3------------------- */
+
+
+
+#postaladdress {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: auto;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+    /* z-index: -1; */
+}
+
+#postaladdress div {
+    display: flex;
+}
+
+#box3 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 190px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box3 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+
+#postaladdress {
+    height: 100px;
+}
+
+#postaladdress p {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#postaladdress input {
+    width: 150px !important;
+    margin-left: 40px;
+    height: 25px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-right: 0px;
+
+}
+
+
+
+
+#openn {
+    display: flex;
+}
+
+#openn p {
+    margin-left: 60px;
+    font-weight: bold;
+    margin-right: 40px;
+    width: 160px;
+}
+
+#openn input {
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#opennin2 {
+    width: 150px !important;
+}
+
+
+/* -----------------btns--------------- */
+#btns {
+    /* border: 2px solid black; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btns button {
+    border: none;
+    height: 35px;
+    width: 140px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+    border-radius: 12px;
+
+
+}
+
+#btn1 {
+    background-color: #f10f26;
+    font-size: 1rem;
+    color: white;
+}
+
+#btn1:hover {
+    cursor: pointer;
+    background-color: #df1b2f;
+}
+
+#btn2 a {
+    text-decoration: none;
+    color: #f10f26;
+    font-size: 1rem;
+}
+
+#btn2:hover {
+    background-color: rgb(232, 232, 231);
+}
+
+
+
+
+
+
+
+/* ------------------form 2-------------------- */
+#form2 {
+    border: 3px solid #f10f26;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    /* background-color: white; */
+}
+
+#form2 {
+    position: absolute;
+    top: 240px;
+    width: 80%;
+}
+
+#form2 input {
+
+
+    margin-left: 3%;
+
+}
+
+#checkbox1 {
+    margin-top: 30px;
+}
+
+#checkbox2 {
+    margin-top: 30px;
+}
+
+#checkbox3 {
+    margin-top: 30px;
+}
+
+#checkbox4 {
+    margin-top: 30px;
+}
+
+#checkbox5 {
+    margin-top: 30px;
+}
+
+
+#form2 p {
+    display: inline-block;
+    /* margin-right: 8%; */
+    width: 19%;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#Dtype p {
+    width: 14%;
+}
+
+#Dtype {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: 110px;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+}
+
+#box4 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box4 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+
+
+#box5 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box5 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#Donationtype p {
+    width: 14%;
+}
+
+#Donationtype {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: 90px;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+}
+
+
+
+
+
+
+#box6 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box6 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+#Ctype {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: 160px;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+}
+
+
+
+
+
+#box7 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box7 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+#Btype p {
+    width: 28%;
+}
+
+#Btype {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: 160px;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+}
+
+
+
+
+#box8 {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    height: 40px;
+    width: 110px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+
+#box8 span {
+
+    /* border: 2px solid black; */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+#Ttype p {
+    width: 14%;
+}
+
+#Ttype {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 93%;
+    margin: 50px auto;
+    height: 90px;
+    box-shadow: 10px 5px 5px #609EA2;
+    background-color: white;
+
+}
+
+#remark {
+    margin-left: 5%;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+
+}
+
+#form2 textarea {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+
+#btns2 {
+    height: 70px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.btnss {
+
+    border: none;
+    height: 35px;
+    width: 140px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    border-radius: 12px;
+
+
+}
+
+#btns1 {
+    background-color: #f10f26;
+    font-size: 1rem;
+    color: white;
+}
+
+#btns1:hover {
+    cursor: pointer;
+    background-color: #df1b2f;
+}
+
+.btnss2 {
+    text-decoration: none;
+    color: #f10f26;
+    font-size: 1rem;
+}
+
+.btnss2 a {
+    text-decoration: none;
+    color: #f10f26;
+    font-size: 1rem;
+}
+
+.btnss2:hover {
+    background-color: rgb(232, 232, 231);
+}

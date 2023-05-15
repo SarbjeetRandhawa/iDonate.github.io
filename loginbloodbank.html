@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/loginbloodbank.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Blood Donation</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="head font">
+            <div id="iconnav"><img src="/resources/Logo 2.png" alt="img"></div>
+            <div id="optionnav">
+                <ul id="navlist">
+                    <li><a href="/home.html">HOME</a> </li>
+                    <li><a href="/loginuser.html">WANT TO DONATE BLOOD</a> </li>
+                    <li class="selected"><a href="/loginbloodbank.html">ADD BLOOD BANK</a> </li>
+                    <li><a href="/blodddisplay.html">LOOKING FOR BLOOD</a> </li>
+                    <li><a href="#">ABOUT</a> </li>
+                </ul>
+            </div>
+            <p id="userdis1"></p>
+
+
+        </nav>
+    </header>
+    <div>
+        <img id="bgdesign1" src="/resources/bg/bloodbanklogin/sl_050622_50190_20.jpg" alt="">
+        <img class="wave"
+            src="https://img.freepik.com/free-vector/simple-blank-red-background-business_53876-115949.jpg?size=626&ext=jpg&ga=GA1.2.773665432.1677242528&semt=ais">
+    </div>
+    <section class="formbloodbank font">
+
+
+
+        <div>
+            <h2 id="title">Blood Bank Detials </h2>
+        </div>
+        <div id="option">
+            <button class="underline" id="option1">Blood Bank Information <img src="/resources/number-1.png"
+                    alt=""></button>
+            <button class="" id="option2">Donation Information <img src="/resources/number-2.png" alt=""></button>
+
+
+        </div>
+
+
+        <form action="/loginbloodbank" id="formbloodbank" method="post">
+            <div id="form1" class="">
+                <div id="address">
+                    <div id="box1"> <span>Blood Bank Address</span></div>
+                    <p>State<font color="red">*</font>
+                    </p>
+                    <select name="states" id="states" class="addressinput">
+                        <option value="-1">Select State</option>
+                        <option value="Andaman & Nicobar Islands">Andaman &amp; Nicobar Islands</option>zz
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandiagrh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadra & Nagar Haveli">Dadra &amp; Nagar Haveli</option>
+                        <option value="Daman & Diu">Daman &amp; Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Ladakh">Ladakh</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                    <p>District <font color="red">*</font>
+                    </p>
+                    <input type="text" id="district" name="district" class="addressinput input1">
+                    <p>City</p>
+                    <input type="text" id="city" name="city" class="addressinput input1">
+
+
+
+
+                </div>
+                <div id="bankdetails">
+
+
+                    <div>
+                        <div id="box2"> <span>Blood Bank details</span></div>
+                        <p>Blood Bank Name<font color="red">*</font>
+                        </p>
+                        <input type="text" id="bbname" class="bankdetailinput1" name="bbname">
+                        <p>Parent Hospital Name<font color="red">*</font>
+                        </p>
+                        <input type="text" id="phname" class="bankdetailinput1" name="phname">
+                    </div>
+
+                    <div id="bankdetails-div2">
+                        <p>Short Name </p>
+                        <input type="text" id="sname" class="bankdetailinput2" name="sname">
+                        <p>Category<font color="red">*</font>
+                        </p>
+                        <select name="category" id="category" class="bankdetailsinput">
+                            <option value="-1">Select type</option>
+                            <option value="Govt">Govt.</option>
+                            <option value="Red Cross">Red Cross</option>
+                            <option value="Charitable">Charitable/Vol</option>
+                            <option value="Private">Private</option>
+                        </select>
+                        <p>Contact Person<font color="red">*</font>
+                        </p>
+                        <input type="tel" id="cperson" class="bankdetailinput2" name="cperson">
+                    </div>
+
+                    <div id="bankdetails-div3">
+                        <p>Email </p>
+                        <input type="email" id="email" class="bankdetailinput2" name="email">
+                        <p>Contact No.<font color="red">*</font>
+                        </p>
+                        <input type="tel" id="ContactN" class="bankdetailinput2" name="cnumber">
+                        <p>Fax No.
+                        </p>
+                        <input type="number" id="faxinput" class="bankdetailinput2" name="fnumber">
+                    </div>
+
+                    <div id="bankdetails-div4">
+                        <p>License No.</p>
+                        <input type="text" id="lno" class="bankdetailinput2" name="lnumber">
+                        <p>From Date
+                        </p>
+                        <input type="date" id="Fdate" class="bankdetailinput2" name="fdate">
+                        <p>To Date
+                        </p>
+                        <input type="date" id="Tdate" class="bankdetailinput2" name="tdate">
+                    </div>
+
+                    <div id="bankdetails-div5">
+                        <p>Component Facility </p>
+                        <select name="componentF" id="cfacility" class="bankdetailsinput">
+                            <option value="-1">Select Value</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                        <p>Apheresis Facility
+                        </p>
+                        <select name="ApheresisF" id="afacility" class="bankdetailsinput">
+                            <option value="-1">Select Value</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                        <p>Helpline No.
+                        </p>
+                        <input type="tel" id="Hnumber" class="bankdetailinput2" name="hnumber">
+                    </div>
+
+
+
+
+
+                </div>
+                <div id="postaladdress">
+                    <div id="box3"> <span>Postal Address</span></div>
+                    <div>
+                        <p>Address 1<font color="red">*</font>
+                        </p><input type="text" id="pa1" class="addressinput" name="address1">
+                        <p>Address 2</p><input type="text" id="pa2" class="addressinput" name="address2">
+                        <p>Pincode <font color="red">*</font>
+                        </p><input type="text" id="pcode" class="addressinput" name="pincode">
+                    </div>
+
+                </div>
+                <div id="openn">
+                    <p>Website</p><input type="text" id="website" name="website">
+                </div>
+                <div id="openn">
+                    <p>Number of Beds Available</p><input id="opennin2" type="number" name="bavailable">
+                </div>
+                <div id="btns"><button type="button" id="btn1">Next</button>
+                    <button id="btn2" type=""><a href="/">Cancel</a></button>
+                </div>
+
+            </div>
+
+
+
+            <div id="form2" class="hidden">
+                <div id="Dtype">
+                    <div id="box4">
+                        <span>Donor Type <font color="red">*</font></span>
+                    </div>
+                    <div id="checkbox1">
+                        <input type="checkbox" id="voluntary" name="vol" value="Voluntary">
+                        <p>Voluntary</p>
+                        <input type="checkbox" id="rep" name="replacement" value="Replacement">
+                        <p>Replacement</p>
+                        <input type="checkbox" id="dir" name="directed" value="Directed">
+                        <p>Directed</p>
+                        <input type="checkbox" id="auto" name="autologous" value="Autologous">
+                        <p>Autologous</p>
+                        <input type="checkbox" name="family" value="Family">
+                        <p>Family</p>
+                        <input type="checkbox" name="replaceExt" value="Replacement External">
+                        <p>Replacement External</p>
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="Donationtype">
+                    <div id="box5">
+                        <span>Donation Type <font color="red">*</font></span>
+                    </div>
+                    <div id="checkbox2">
+                        <input type="checkbox" name="leucaperesis" value="Leucaperesis">
+                        <p>Leucaperesis</p>
+                        <input type="checkbox" name="plasmapheresis" value="Plasmapheresis">
+                        <p>Plasmapheresis</p>
+                        <input type="checkbox" name="plateletpheresis" value="Plateletpheresis">
+                        <p>Plateletpheresis</p>
+                        <input type="checkbox" name="wholeblood" value=" Whole Blood">
+                        <p>Whole Blood</p>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div id="Ctype">
+                    <div id="box6">
+                        <span>Component Type </span>
+                    </div>
+                    <div id="checkbox3">
+                        <input type="checkbox" name="cryo" value="Cryo Poor Plasma">
+                        <p>Cryo Poor Plasma</p>
+                        <input type="checkbox" name="ceyo" value="Ceyoprecipitate">
+                        <p>Ceyoprecipitate</p>
+                        <input type="checkbox" name="fresh" value="Fresh Frozen Plasma">
+                        <p>Fresh Frozen Plasma</p>
+                        <input type="checkbox" name="irradiated" value="Irradiated RBC">
+                        <p>Irradiated RBC</p>
+                        <input type="checkbox" name="leu" value="Leukoreduced RBC">
+                        <p>Leukoreduced RBC</p>
+                        <input type="checkbox" name="packed" value="Packed Red Blood Cells">
+                        <p>Packed Red Blood Cells</p>
+                        <input type="checkbox" name="plasma" value="Plasma">
+                        <p>Plasma</p>
+                        <input type="checkbox" name="platelet" value="Platelet Concentrate">
+                        <p>Platelet Concentrate</p>
+                        <input type="checkbox" name="plateletpoor" value="Platelet Poor Plasma">
+                        <p>Platelet Poor Plasma</p>
+                        <input type="checkbox" name="plateletrich" value="Platelet Rich Plasma">
+                        <p>Platelet Rich Plasma</p>
+                        <input type="checkbox" name="sagm" value="Sagm Packed RBC">
+                        <p>Sagm Packed RBC</p>
+                        <input type="checkbox" name="singleplasma" value="Single Donor Plasma">
+                        <p>Single Donor Plasma</p>
+                        <input type="checkbox" name="singleplatelet" value="Single Donor Platelet">
+                        <p>Single Donor Platelet</p>
+                        <input type="checkbox" name="wholeblood2" value="Whole Blood">
+                        <p>Whole Blood</p>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div id="Btype">
+                    <div id="box7">
+                        <span>Bag Type </span>
+                    </div>
+                    <div id="checkbox4">
+                        <input type="checkbox" name="single" value="Single (350/450ml)">
+                        <p>Single (350/450ml)</p>
+                        <input type="checkbox" name="double" value="Double (350/450ml)">
+                        <p>Double (350/450ml)</p>
+                        <input type="checkbox" name="triple" value="Triple (350/450ml)">
+                        <p>Triple (350/450ml)</p>
+                        <input type="checkbox" name="quadruple" value="Quadruple (450 ml) with inline filter">
+                        <p>Quadruple (450 ml) with inline filter</p>
+                        <input type="checkbox" name="Quadruplewithout" value="Quadruple (450 ml) without inline filter">
+                        <p>Quadruple (450 ml) without inline filter</p>
+                        <input type="checkbox" name="penta" value="Penta Bag (450 ml)">
+                        <p>Penta Bag (450 ml)</p>
+                        <input type="checkbox" name="transfer" value="Transfer Bags">
+                        <p>Transfer Bags</p>
+                        <input type="checkbox" name="apheresis" value="Apheresis Kits">
+                        <p>Apheresis Kits</p>
+                        <input type="checkbox" name="triple350" value="Triple (350 Ml) CPD/SAGM">
+                        <p>Triple (350 Ml) CPD/SAGM</p>
+                        <input type="checkbox" name="triple450" value="Triple (450 Ml) CPD/SAGM">
+                        <p>Triple (450 Ml) CPD/SAGM</p>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="Ttype">
+                    <div id="box8">
+                        <span>TTI Type </span>
+                    </div>
+                    <div id="checkbox5">
+                        <input type="checkbox" name="hiv" value="HIV 1&2">
+                        <p>HIV 1&2</p>
+                        <input type="checkbox" name="hepatitisB" value="Hepatitis-B">
+                        <p>Hepatitis-B</p>
+                        <input type="checkbox" name="hepatitisC" value="Hepatitis-C">
+                        <p>Hepatitis-C</p>
+                        <input type="checkbox" name="syphilis" value="Syphilis">
+                        <p> Syphilis</p>
+                        <input type="checkbox" name="malaria" value="Malaria">
+                        <p>Malaria</p>
+
+                    </div>
+
+                </div>
+
+
+                <span id="remark">Remarks</span>
+                <textarea name="remark" id="remarks" cols="30" rows="10"></textarea>
+
+                <div id="btns2">
+                    <button class="btnss" id="btns1" type="submit">Save</button>
+                    <button class="btnss btnss2" id="backtoprev" type="button">Back</button>
+                    <button class="btnss btnss2"><a href="/">Cancel</a> </button>
+
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/loginbloodbank.js"></script>
+
+</body>
+
+
+</html>

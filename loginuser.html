@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/loginuser.css">
+    <title>User login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="head font">
+            <div id="iconnav"><img src="/resources/Logo 2.png" alt="img"></div>
+            <div id="optionnav">
+                <ul id="navlist">
+                    <li><a href="/home.html">HOME</a> </li>
+                    <li class="selected"><a href="/loginuser.html">WANT TO DONATE BLOOD</a> </li>
+                    <li ><a href="/loginbloodbank.html">ADD BLOOD BANK</a> </li>
+                    <li><a href="/blodddisplay.html">LOOKING FOR BLOOD</a> </li>
+                    <li><a href="#">ABOUT</a> </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <img class="wave" src="https://img.freepik.com/free-vector/simple-blank-red-background-business_53876-115949.jpg?size=626&ext=jpg&ga=GA1.2.773665432.1677242528&semt=ais">
+	<div class="container">
+		<div class="img">
+			<img src="/resources/bg/userlogin/undraw_medicine_b-1-ol.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html" id="login-form" name="loginf">
+				<img src="/resources/bg/userlogin/undraw_pic_profile_re_7g2h.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input" name="username">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input" name="pw">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login">
+                <p id="lastline">Don't Have account?<a id="linkregister" href="/register.html"> Register</a></p>
+                
+            </form>
+        </div>
+    </div>
+
+    
+       
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script type="text/javascript" src="/js/loginuser.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/donerform.css">
+    <title>Document</title>
+</head>
+
+<body ">
+
+    <header>
+        <img class="backgroundimg" src="/resources/Screenshot 2023-05-05 173819.png">
+        <div id="whitebg"></div>
+        <nav class="head font">
+            <div id="iconnav"><img src="/resources/Logo 2.png" alt="img"></div>
+            <div id="optionnav">
+                <ul id="navlist">
+                    <li><a href="/home.html">HOME</a> </li>
+                    <li class="selected"><a href="/loginuser.html">WANT TO DONATE BLOOD</a> </li>
+                    <li><a href="/loginbloodbank.html">ADD BLOOD BANK</a> </li>
+                    <li><a href="/blodddisplay.html">LOOKING FOR BLOOD</a> </li>
+                    <li><a href="#">ABOUT</a> </li>
+                </ul>
+            </div>
+            <p id="userdis1"></p>
+
+
+        </nav>
+
+
+    </header>
+
+
+    <div class="container">
+
+        <div class="form-box">
+            <h1>Donor Details</h1>
+            <form id="donorform">
+                <div class="parent">
+                    <div class="input-group input1">
+
+                        <div class="input-field">
+
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Name" id="dname">
+
+                        </div>
+
+                        <div class="input-field">
+
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Email" id="demail">
+
+                        </div>
+
+                        <div class="input-field">
+
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="text" placeholder="Address" id="daddress">
+
+                        </div>
+
+                        <div class="input-field">
+
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="text" placeholder="Medical History" id="mhistory">
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="input-group">
+
+                        <div class="input-field">
+
+
+                            <input type="" placeholder="Blood-Group" id="bgroup">
+
+                        </div>
+
+                        <div class="input-field">
+
+
+                            <input type="number" placeholder="Contact" id="contact">
+
+                        </div>
+
+                        <div class="input-field">
+
+
+                            <input type="number" placeholder="Age" id="age">
+
+                        </div>
+
+                        <div class="input-field">
+
+
+                            <input type="text" placeholder="Sex" id="sex">
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="btn-field">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </div>
+        <button id="btn11" onclick="removehref()">logout</button>
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="/js/donorform.js"></script>
+</body>
+
+</html>
