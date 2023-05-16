@@ -13,6 +13,11 @@ const back = document.getElementById('backtoprev')
 
 const top2 = document.getElementById('btn1');
 
+const loader = document.querySelector('.content');
+
+function myfunction() {
+  loader.style.display = "none";
+}
 
 
 hideoption1 = function () {

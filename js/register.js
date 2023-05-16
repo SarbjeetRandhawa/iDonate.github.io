@@ -1,5 +1,10 @@
 
 
+const loader = document.querySelector('.content');
+
+function myfunction() {
+  loader.style.display = "none";
+}
 
 
 

@@ -16,12 +16,12 @@ body {
     top: 0%;
     height: 50px;
     /* border: 2px solid black; */
-    position: fixed;
+    /* position: fixed; */
     
     width: 100%;
     /* background-color: white; */
     /* opacity: 0.58; */
-    z-index: 2;
+    /* z-index: 2; */
     
     /* background-color: #ffffff; */
 
@@ -224,6 +224,7 @@ select {
     border-radius: 15px;
     background-color: #f10f26;
     color: white;
+    z-index: -1;
     
     
 }

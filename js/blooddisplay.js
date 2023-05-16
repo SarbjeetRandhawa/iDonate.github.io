@@ -43,6 +43,12 @@
 //     });
 // }
 
+const loader = document.querySelector('.content');
+
+function myfunction() {
+  loader.style.display = "none";
+}
+
 const formArray = JSON.parse(localStorage.getItem('formDataArray')) || [];
 // const formArray2 = JSON.parse(localStorage.getItem('checkedCheckboxesarray')) || [];
 const checkedCheckboxes = JSON.parse(localStorage.getItem('checkedCheckboxes'));

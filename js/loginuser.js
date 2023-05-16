@@ -1,4 +1,9 @@
 const inputs = document.querySelectorAll(".input");
+const loader = document.querySelector('.content');
+
+function myfunction() {
+  loader.style.display = "none";
+}
 
 
 function addcl(){

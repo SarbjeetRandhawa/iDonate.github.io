@@ -1,4 +1,6 @@
-
+.content{
+  z-index: 0;
+}
   
   .wrapper {
 	position: relative;
