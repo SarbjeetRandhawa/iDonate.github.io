@@ -276,7 +276,7 @@
                     <li class="selected"><a href="/html/donerform.html">WANT TO DONATE BLOOD</a> </li>
                     <li><a href="/html/loginbloodbank.html">ADD BLOOD BANK</a> </li>
                     <li><a href="/html/blodddisplay.html">LOOKING FOR BLOOD</a> </li>
-                    <li><a href="#">ABOUT</a> </li>
+                    <li><a href="/html/about.html">ABOUT</a> </li>
                 </ul>
             </div>
             <p id="userdis1"></p>
@@ -299,28 +299,28 @@
                         <div class="input-field">
 
                             <i class="fa-solid fa-user"></i>
-                            <input type="text" placeholder="Name" id="dname">
+                            <input type="text" placeholder="Name" id="dname" name="name"> 
 
                         </div>
 
                         <div class="input-field">
 
                             <i class="fa-solid fa-envelope"></i>
-                            <input type="email" placeholder="Email" id="demail">
+                            <input type="email" placeholder="Email" id="demail" name="email">
 
                         </div>
 
                         <div class="input-field">
 
                             <i class="fa-solid fa-lock"></i>
-                            <input type="text" placeholder="Address" id="daddress">
+                            <input type="text" placeholder="Address" id="daddress" name="address">
 
                         </div>
 
                         <div class="input-field">
 
                             <i class="fa-solid fa-lock"></i>
-                            <input type="text" placeholder="Medical History" id="mhistory">
+                            <input type="text" placeholder="Medical History" id="mhistory" name="medical">
 
                         </div>
 
@@ -340,7 +340,7 @@
                         <div class="input-field">
 
 
-                            <select id="bgroup" name="Bloodgroup">
+                            <select id="bgroup" name="Bloodgroup" value="">
                                 <option value="-1">Blood-Group</option>
                                 <option value="O+">O+</option>
                                 <option value="O-">O-</option>
@@ -366,13 +366,13 @@
                         <div class="input-field">
 
 
-                            <input type="number" placeholder="Age" id="age">
+                            <input type="number" placeholder="Age" id="age" name="age">
 
                         </div>
 
                         <div class="input-field">
 
-                            <select id="bgroup" name="sex" class="sex">
+                            <select id="bgroup" name="sex" class="sex" name="sex">
                                 <option value="-1">Sex</option>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>

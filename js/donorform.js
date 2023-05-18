@@ -9,6 +9,33 @@ function validation() {
     if (document.donorform.number.value.length > 10) {
         document.getElementById("result").innerHTML = "Contact number is too long";
         return false;
+    } else if (document.donorform.name.value == "") {
+        document.getElementById("result").innerHTML = "Name required";
+        return false;
+    } else if (document.donorform.Bloodgroup.value == "") {
+        document.getElementById("result").innerHTML = "Blood-group required";
+        return false;
+    } else if (document.donorform.address.value == "") {
+        document.getElementById("result").innerHTML = "address required";
+        return false;
+    } else if (document.donorform.email.value == "") {
+        document.getElementById("result").innerHTML = "email required";
+        return false;
+    } else if (document.donorform.number.value.length > 10) {
+        document.getElementById("result").innerHTML = "Contact number is too long";
+        return false;
+    } else if (document.donorform.age.value == "") {
+        document.getElementById("result").innerHTML = "age required";
+        return false;
+    } else if (document.donorform.sex.value == "Sex") {
+        document.getElementById("result").innerHTML = "Gender required";
+        return false;
+    } else if (document.donorform.number.value == "") {
+        document.getElementById("result").innerHTML = "Nnumber required";
+        return false;
+    } else if (document.donorform.medical.value == "") {
+        document.getElementById("result").innerHTML = "medical history required";
+        return false;
     } else if (document.donorform.number.value.length < 5) {
         document.getElementById("result").innerHTML = "Contact number is too short";
         return false;
@@ -16,7 +43,7 @@ function validation() {
 
         const donorform = document.querySelector('#donorform');
 
-       
+
 
         const dname = document.querySelector('#dname').value;
         const demail = document.querySelector('#demail').value;
@@ -42,7 +69,7 @@ function validation() {
         }).then(() => {
             window.location.href = 'blodddisplay.html';
         });
-       return false;
+        return false;
     }
 
 }
